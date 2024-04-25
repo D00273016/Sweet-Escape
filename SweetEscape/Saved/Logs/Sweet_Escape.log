@@ -1629,3 +1629,627 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.25-15.14.18:850][874]LogEditorViewport: Clicking Background
 [2024.04.25-15.14.20:399][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
 [2024.04.25-15.14.22:704][  5]LogSlate: Window 'Save Content' being destroyed
+[2024.04.25-15.19.35:280][ 49]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.19.35:286][ 49]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/3D_Assets/Animation/Fast_Run.Fast_Run has no skeleton. This needs to fixed before an animation can be set
+[2024.04.25-15.19.35:880][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.19.35:921][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.19.35:970][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.19.36:152][110]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.19.42:449][583]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/3D_Assets/Animation/Fast_Run.Fast_Run has no skeleton. This needs to fixed before an animation can be set
+[2024.04.25-15.22.12:735][ 83]Cmd: EDIT COPY
+[2024.04.25-15.22.19:897][862]Cmd: EDIT COPY
+[2024.04.25-15.22.21:094][996]Cmd: EDIT PASTE
+[2024.04.25-15.22.32:864][230]LogEditorViewport: Clicking Background
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Total job queries 272, among them cache hits 159 (58.46%)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Tracking 113 distinct input hashes that result in 67 distinct outputs (59.29%)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: RAM used: 2.45 MiB of 1.60 GiB budget. Usage: 0.15%
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Shaders Compiled: 36
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Average time worker was idle: 20.42 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.41 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Job life time (pending + execution): average 0.28 s, max 0.44
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Shader code size: average 39.282 KiB, min 29.711 KiB, max 70.504 KiB
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.21 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Average processing rate: 11.22 jobs/sec
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Total thread time: 4.542 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Total thread preprocess time: 0.508 s
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Percentage time preprocessing: 11.17%
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.59% of total time (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.05% of total time (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.89% of total time (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.77% of total time (compiled    7 times, average 0.06 sec, max 0.08 sec, min 0.05 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 3.57% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.22.42:882][329]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.22.53:285][463]LogEditorViewport: Clicking Background
+[2024.04.25-15.23.03:257][564]Cmd: POLY SELECT ADJACENT COPLANARS
+[2024.04.25-15.23.22:113][638]Cmd: POLY SELECT ADJACENT COPLANARS
+[2024.04.25-15.23.28:337][330]Cmd: EDIT COPY
+[2024.04.25-15.23.28:965][401]Cmd: EDIT PASTE
+[2024.04.25-15.24.01:906][791]LogContentBrowser: Deferred new asset file creation: M_Chocolate_Inst
+[2024.04.25-15.24.01:919][791]LogContentBrowser: Creating deferred item: M_Chocolate_Inst
+[2024.04.25-15.24.01:932][792]LogContentBrowser: Renaming the item being created (Deferred Item: M_Chocolate_Inst).
+[2024.04.25-15.24.04:338][ 28]LogContentBrowser: Attempting asset rename: M_Chocolate_Inst -> M_Chocolate_Inst
+[2024.04.25-15.24.04:339][ 28]LogContentBrowser: End creating deferred item M_Chocolate_Inst
+[2024.04.25-15.24.08:483][411]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/3D_Assets/Materials/M_Chocolate_Inst.M_Chocolate_Inst
+[2024.04.25-15.24.08:494][411]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.24.08:494][411]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.24.08:737][411]LogViewport: Scene viewport resized to 1335x894, mode Windowed.
+[2024.04.25-15.24.22:214][683]LogSlate: Window 'M_Chocolate_Inst' being destroyed
+[2024.04.25-15.24.22:220][683]LogSlate: Window 'M_Chocolate_Inst' being destroyed
+[2024.04.25-15.24.22:225][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.04.25-15.24.22:448][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.04.25-15.24.22:463][683]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.24.22:463][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.24.51:762][802]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/3D_Assets/Materials/M_Chocolate_Inst.M_Chocolate_Inst
+[2024.04.25-15.24.51:763][802]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.24.51:763][802]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.24.51:974][802]LogViewport: Scene viewport resized to 1335x894, mode Windowed.
+[2024.04.25-15.25.47:653][720]LogSlate: Window 'Color Picker' being destroyed
+[2024.04.25-15.25.50:012][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-15.25.50:129][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.04.25-15.25.50:133][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.04.25-15.25.50:135][925]LogSavePackage: Moving output files for package: /Game/3D_Assets/Materials/M_Chocolate_Inst
+[2024.04.25-15.25.50:135][925]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/M_Chocolate_Inst4C119F66406A6F351A163892A4BF2FF2.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/3D_Assets/Materials/M_Chocolate_Inst.uasset'
+[2024.04.25-15.25.50:152][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 1.18 sec)
+[2024.04.25-15.25.50:152][925]AssetCheck: New page: Asset Save: M_Chocolate_Inst
+[2024.04.25-15.25.50:152][925]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/3D_Assets/Materials/M_Chocolate_Inst.M_Chocolate_Inst
+[2024.04.25-15.25.51:300][ 34]LogSlate: Window 'M_Chocolate_Inst' being destroyed
+[2024.04.25-15.25.51:305][ 34]LogSlate: Window 'M_Chocolate_Inst' being destroyed
+[2024.04.25-15.25.51:314][ 34]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.25.51:314][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.25.58:314][741]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/3D_Assets/Materials/Chocolate_bar.Chocolate_bar
+[2024.04.25-15.25.58:317][741]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.25.58:317][741]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.25.58:476][741]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.25.58:488][741]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.25-15.25.58:488][741]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.25-15.25.58:488][741]MaterialEditorStats: Shader Count: 0
+[2024.04.25-15.25.58:496][741]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Total job queries 308, among them cache hits 175 (56.82%)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Tracking 133 distinct input hashes that result in 78 distinct outputs (58.65%)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: RAM used: 2.88 MiB of 1.60 GiB budget. Usage: 0.18%
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Shaders Compiled: 36
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Average time worker was idle: 20.42 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.41 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Job life time (pending + execution): average 0.28 s, max 0.44
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Shader code size: average 39.282 KiB, min 29.711 KiB, max 70.504 KiB
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.21 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Average processing rate: 11.22 jobs/sec
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Total thread time: 4.542 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Total thread preprocess time: 0.508 s
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Percentage time preprocessing: 11.17%
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.59% of total time (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.05% of total time (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.89% of total time (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.77% of total time (compiled    7 times, average 0.06 sec, max 0.08 sec, min 0.05 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 3.57% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.25.58:522][742]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.25.58:542][743]MaterialEditorStats: Base pass shader: 119 instructions
+[2024.04.25-15.25.58:542][743]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.04.25-15.25.58:542][743]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.25-15.25.58:542][743]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.25-15.25.58:542][743]MaterialEditorStats: Shader Count: 4
+[2024.04.25-15.26.00:901][964]LogSlate: Window 'Chocolate_bar' being destroyed
+[2024.04.25-15.26.00:906][964]LogSlate: Window 'Chocolate_bar' being destroyed
+[2024.04.25-15.26.00:915][964]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.26.00:915][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.26.34:133][441]Cmd: EDIT COPY
+[2024.04.25-15.26.34:401][471]Cmd: EDIT PASTE
+[2024.04.25-15.26.46:962][822]Cmd: DELETE
+[2024.04.25-15.26.46:962][822]Cmd: ACTOR DELETE
+[2024.04.25-15.26.46:968][822]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.25-15.26.46:973][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.04.25-15.26.46:976][822]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2024.04.25-15.27.05:941][829]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.27.05:941][829]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.27.05:952][829]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.27.26:052][932]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.25-15.27.28:556][157]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/3D_Assets/Mesh/Chocolate_bar_Choclate_bar.Chocolate_bar_Choclate_bar
+[2024.04.25-15.27.28:722][157]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.27.28:722][157]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.27.29:127][157]LogViewport: Scene viewport resized to 1051x894, mode Windowed.
+[2024.04.25-15.27.40:652][ 64]LogSlate: Window 'Chocolate_bar_Choclate_bar' being destroyed
+[2024.04.25-15.27.40:657][ 64]LogSlate: Window 'Chocolate_bar_Choclate_bar' being destroyed
+[2024.04.25-15.27.40:686][ 64]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.27.40:686][ 64]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.28.15:501][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-15.28.15:587][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.25-15.28.15:652][889]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-15.28.15:653][889]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase5917A00440D337C30FBD2F8C00AF4598.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-15.28.15:659][889]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.091
+[2024.04.25-15.28.15:663][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 1.34 sec)
+[2024.04.25-15.28.15:665][889]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-15.28.15:665][889]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-15.29.48:088][723]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder
+[2024.04.25-15.29.48:088][723]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder
+[2024.04.25-15.29.48:089][723]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder as actor: StaticMeshActor /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.StaticMeshActor_78
+[2024.04.25-15.29.48:089][723]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere
+[2024.04.25-15.29.48:089][723]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere
+[2024.04.25-15.29.48:089][723]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere as actor: StaticMeshActor /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.StaticMeshActor_79
+[2024.04.25-15.29.52:579][232]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder
+[2024.04.25-15.29.52:579][232]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder
+[2024.04.25-15.29.52:580][232]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Cylinder.Cherry_Modeling_v0001_Cylinder as actor: StaticMeshActor /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.StaticMeshActor_80
+[2024.04.25-15.29.52:595][232]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere
+[2024.04.25-15.29.52:595][232]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere
+[2024.04.25-15.29.52:596][232]LogActorFactory: Actor Factory spawned StaticMesh /Game/3D_Assets/Mesh/Cherry_Modeling_v0001_Sphere.Cherry_Modeling_v0001_Sphere as actor: StaticMeshActor /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.StaticMeshActor_81
+[2024.04.25-15.32.00:963][770]LogEditorViewport: Clicking Background
+[2024.04.25-15.32.33:863][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-15.32.33:982][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.04.25-15.32.34:052][119]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-15.32.34:053][119]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase27B4CF00436A26097A1E7E85B7B73B86.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-15.32.34:057][119]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.101
+[2024.04.25-15.32.34:063][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 1.54 sec)
+[2024.04.25-15.32.34:066][119]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-15.32.34:066][119]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-15.32.34:390][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-15.32.34:508][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.04.25-15.32.34:572][146]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-15.32.34:572][146]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_ShowcaseF9407304467B48F1E7B403B9CDCA7864.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-15.32.34:577][146]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.083
+[2024.04.25-15.32.34:583][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 1.73 sec)
+[2024.04.25-15.32.34:586][146]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-15.32.34:586][146]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-15.34.11:078][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-15.34.11:172][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.04.25-15.34.11:235][760]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-15.34.11:236][760]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase04433D37448273ED1A99B994974D404B.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-15.34.11:241][760]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.082
+[2024.04.25-15.34.11:246][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 1.90 sec)
+[2024.04.25-15.34.11:249][760]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-15.34.11:249][760]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-15.34.14:436][ 27]LogEditorViewport: Clicking Background
+[2024.04.25-15.34.53:217][442]Cmd: EDIT COPY
+[2024.04.25-15.34.56:193][796]Cmd: EDIT COPY
+[2024.04.25-15.34.56:513][834]Cmd: EDIT PASTE
+[2024.04.25-15.36.19:189][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-15.36.19:205][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-15.36.19:210][681]PIE: New page: PIE session: LearningKit_Games_Showcase (25 Apr 2024, 17:36:19)
+[2024.04.25-15.36.19:215][681]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.04.25-15.36.19:215][681]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.04.25-15.36.19:216][681]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.36.19:234][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:237][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020670s)
+[2024.04.25-15.36.19:237][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.020718s)
+[2024.04.25-15.36.19:240][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.04.25-15.36.19:246][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.36.19:246][681]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.36.19:247][681]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.04.25-15.36.19:247][681]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2024.04.25-15.36.19:248][681]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.25-15.36.19:248][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.25-15.36.19:248][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-15.36.19:248][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-15.36.19:248][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-15.36.19:248][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-15.36.19:250][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-15.36.19:270][681]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Jabra Evolve2 40 SE)
+[2024.04.25-15.36.19:270][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-15.36.19:270][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-15.36.19:270][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-15.36.19:271][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.04.25-15.36.19:271][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.04.25-15.36.19:272][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.04.25-15.36.19:272][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.04.25-15.36.19:272][681]LogInit: FAudioDevice initialized with ID 2.
+[2024.04.25-15.36.19:272][681]LogAudio: Display: Audio Device (ID: 2) registered with world 'LearningKit_Games_Showcase'.
+[2024.04.25-15.36.19:272][681]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.04.25-15.36.19:278][681]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:286][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.19:287][681]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.04.25-16.36.19
+[2024.04.25-15.36.20:195][681]LogWorld: Bringing up level for play took: 0.916583
+[2024.04.25-15.36.20:198][681]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.04.25-15.36.20:225][681]PIE: Server logged in
+[2024.04.25-15.36.20:226][681]PIE: Play in editor total start time 1.024 seconds.
+[2024.04.25-15.36.20:242][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.20:242][681]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Total job queries 320, among them cache hits 179 (55.94%)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Tracking 141 distinct input hashes that result in 83 distinct outputs (58.87%)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: RAM used: 3.05 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Shaders Compiled: 36
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Average time worker was idle: 20.42 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.41 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Job life time (pending + execution): average 0.28 s, max 0.44
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Shader code size: average 39.282 KiB, min 29.711 KiB, max 70.504 KiB
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.21 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Average processing rate: 11.22 jobs/sec
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Total thread time: 4.542 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Total thread preprocess time: 0.508 s
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Percentage time preprocessing: 11.17%
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.59% of total time (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.05% of total time (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.89% of total time (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.77% of total time (compiled    7 times, average 0.06 sec, max 0.08 sec, min 0.05 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 3.57% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.36.20:381][683]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.36.47:322][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.36.47:322][857]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.36.47:323][857]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.36.47:326][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.36.47:329][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-15.36.47:331][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.36.47:335][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.36.47:337][857]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.04.25-15.36.47:337][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.04.25-15.36.47:338][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.04.25-15.36.47:346][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.04.25-15.36.47:383][858]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.04.25-15.36.55:283][782]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-15.36.55:288][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-15.36.55:288][782]PIE: New page: PIE session: LearningKit_Games_Showcase (25 Apr 2024, 17:36:55)
+[2024.04.25-15.36.55:320][782]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.36.55:337][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:339][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018964s)
+[2024.04.25-15.36.55:339][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.018994s)
+[2024.04.25-15.36.55:342][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.04.25-15.36.55:345][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.36.55:345][782]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.36.55:345][782]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.04.25-15.36.55:346][782]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2024.04.25-15.36.55:346][782]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.25-15.36.55:346][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.25-15.36.55:346][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-15.36.55:346][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-15.36.55:346][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-15.36.55:346][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-15.36.55:348][782]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-15.36.55:363][782]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Jabra Evolve2 40 SE)
+[2024.04.25-15.36.55:364][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-15.36.55:364][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-15.36.55:364][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-15.36.55:365][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.04.25-15.36.55:365][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.04.25-15.36.55:366][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.04.25-15.36.55:366][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.04.25-15.36.55:366][782]LogInit: FAudioDevice initialized with ID 3.
+[2024.04.25-15.36.55:366][782]LogAudio: Display: Audio Device (ID: 3) registered with world 'LearningKit_Games_Showcase'.
+[2024.04.25-15.36.55:366][782]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.25-15.36.55:368][782]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.55:375][782]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.04.25-16.36.55
+[2024.04.25-15.36.56:279][782]LogWorld: Bringing up level for play took: 0.911173
+[2024.04.25-15.36.56:281][782]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.04.25-15.36.56:284][782]PIE: Server logged in
+[2024.04.25-15.36.56:284][782]PIE: Play in editor total start time 0.996 seconds.
+[2024.04.25-15.36.56:287][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.36.56:287][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.01:001][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.01:002][317]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.37.01:002][317]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.37.01:003][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.01:006][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-15.37.01:007][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.01:011][317]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.25-15.37.01:011][317]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.25-15.37.01:011][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.25-15.37.01:013][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.25-15.37.01:016][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.01:021][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.04.25-15.37.01:099][319]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.04.25-15.37.05:055][782]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-15.37.05:061][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-15.37.05:061][782]PIE: New page: PIE session: LearningKit_Games_Showcase (25 Apr 2024, 17:37:05)
+[2024.04.25-15.37.05:091][782]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.37.05:107][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:111][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019432s)
+[2024.04.25-15.37.05:111][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.019462s)
+[2024.04.25-15.37.05:113][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.04.25-15.37.05:117][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.37.05:117][782]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.37.05:117][782]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.04.25-15.37.05:118][782]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2024.04.25-15.37.05:118][782]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.25-15.37.05:118][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.25-15.37.05:118][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-15.37.05:118][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-15.37.05:118][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-15.37.05:118][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-15.37.05:119][782]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-15.37.05:135][782]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Jabra Evolve2 40 SE)
+[2024.04.25-15.37.05:135][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-15.37.05:135][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-15.37.05:135][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-15.37.05:136][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.25-15.37.05:136][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.25-15.37.05:137][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.25-15.37.05:137][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.25-15.37.05:137][782]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.25-15.37.05:137][782]LogAudio: Display: Audio Device (ID: 4) registered with world 'LearningKit_Games_Showcase'.
+[2024.04.25-15.37.05:137][782]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.25-15.37.05:139][782]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.05:145][782]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.04.25-16.37.05
+[2024.04.25-15.37.06:042][782]LogWorld: Bringing up level for play took: 0.902839
+[2024.04.25-15.37.06:044][782]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.04.25-15.37.06:046][782]PIE: Server logged in
+[2024.04.25-15.37.06:047][782]PIE: Play in editor total start time 0.986 seconds.
+[2024.04.25-15.37.06:049][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.06:049][782]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.18:792][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.18:792][272]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.37.18:792][272]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.37.18:793][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.18:796][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-15.37.18:798][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.18:801][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.18:803][272]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.25-15.37.18:803][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.25-15.37.18:805][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.25-15.37.18:812][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.25-15.37.18:889][274]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.04.25-15.37.23:885][846]Cmd: SELECT NONE
+[2024.04.25-15.37.39:904][728]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.25-15.37.39:909][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.25-15.37.39:909][728]PIE: New page: PIE session: LearningKit_Games_Showcase (25 Apr 2024, 17:37:39)
+[2024.04.25-15.37.39:952][728]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.37.39:968][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.39:970][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018945s)
+[2024.04.25-15.37.39:970][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.018976s)
+[2024.04.25-15.37.39:973][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.04.25-15.37.39:978][728]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.37.39:978][728]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.04.25-15.37.39:978][728]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2024.04.25-15.37.39:978][728]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2024.04.25-15.37.39:979][728]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.25-15.37.39:979][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.25-15.37.39:979][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.25-15.37.39:979][728]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.25-15.37.39:979][728]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.25-15.37.39:979][728]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.25-15.37.39:981][728]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.25-15.37.39:996][728]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Jabra Evolve2 40 SE)
+[2024.04.25-15.37.39:996][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.25-15.37.39:996][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.25-15.37.39:996][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.25-15.37.39:997][728]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.25-15.37.39:997][728]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.25-15.37.39:998][728]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.25-15.37.39:998][728]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.25-15.37.39:998][728]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.25-15.37.39:998][728]LogAudio: Display: Audio Device (ID: 5) registered with world 'LearningKit_Games_Showcase'.
+[2024.04.25-15.37.39:998][728]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.25-15.37.40:000][728]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:007][728]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2024.04.25-16.37.40
+[2024.04.25-15.37.40:898][728]LogWorld: Bringing up level for play took: 0.898138
+[2024.04.25-15.37.40:900][728]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.04.25-15.37.40:903][728]PIE: Server logged in
+[2024.04.25-15.37.40:904][728]PIE: Play in editor total start time 0.994 seconds.
+[2024.04.25-15.37.40:907][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.40:907][728]LogStaticMesh: Warning: Invalid material [M_GlassUE] used on Nanite static mesh [Milk_Collectable_Modeling_v0001_Milk_bottle]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified.
+[2024.04.25-15.37.51:882][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.51:883][983]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2024.04.25-15.37.51:883][983]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.04.25-15.37.51:884][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.51:887][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.25-15.37.51:889][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.25-15.37.51:892][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.25-15.37.51:894][983]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.25-15.37.51:894][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.25-15.37.51:895][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.25-15.37.51:902][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.04.25-15.37.51:968][985]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.04.25-15.37.54:471][269]Cmd: DELETE
+[2024.04.25-15.37.54:471][269]Cmd: ACTOR DELETE
+[2024.04.25-15.37.54:476][269]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2024.04.25-15.37.54:480][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.04.25-15.37.54:483][269]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2024.04.25-15.38.20:102][288]Cmd: SELECT NONE
+[2024.04.25-15.38.51:344][684]LogEditorViewport: Clicking Background
+[2024.04.25-15.39.05:797][280]LogEditorViewport: Clicking Background
+[2024.04.25-15.39.12:249][989]Cmd: DELETE
+[2024.04.25-15.39.12:249][989]Cmd: ACTOR DELETE
+[2024.04.25-15.39.12:254][989]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.25-15.39.12:258][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.04.25-15.39.12:266][989]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2024.04.25-15.39.35:394][675]LogViewport: Scene viewport resized to 939x757, mode Windowed.
+[2024.04.25-15.39.46:104][905]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Total job queries 332, among them cache hits 185 (55.72%)
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Tracking 147 distinct input hashes that result in 87 distinct outputs (59.18%)
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: RAM used: 3.20 MiB of 1.60 GiB budget. Usage: 0.20%
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Shaders Compiled: 36
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Average time worker was idle: 20.42 s
+[2024.04.25-15.40.09:217][543]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.41 s
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Job life time (pending + execution): average 0.28 s, max 0.44
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Shader code size: average 39.282 KiB, min 29.711 KiB, max 70.504 KiB
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.21 s
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Average processing rate: 11.22 jobs/sec
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Total thread time: 4.542 s
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Total thread preprocess time: 0.508 s
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Percentage time preprocessing: 11.17%
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Effective parallelization: 1.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.14 sec, max 0.14 sec, min 0.14 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.59% of total time (compiled    8 times, average 0.16 sec, max 0.21 sec, min 0.14 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.05% of total time (compiled    8 times, average 0.14 sec, max 0.15 sec, min 0.12 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.89% of total time (compiled    7 times, average 0.14 sec, max 0.16 sec, min 0.13 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.77% of total time (compiled    7 times, average 0.06 sec, max 0.08 sec, min 0.05 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 3.57% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.04.25-15.40.09:218][543]LogShaderCompilers: Display: ================================================
+[2024.04.25-15.43.23:805][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2024.04.25-15.43.23:811][737]LogViewport: Scene viewport resized to 1326x757, mode Windowed.
+[2024.04.25-15.43.32:780][728]LogEditorViewport: Clicking Background
+[2024.04.25-15.43.33:658][827]LogDerivedDataCache: C:/Users/Paulina/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.136 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10160 files in 13046 folders with total size 2525 MiB.
+[2024.04.25-15.43.49:030][449]Cmd: TRANSACTION UNDO
+[2024.04.25-15.43.49:030][449]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.25-15.43.49:305][453]Cmd: TRANSACTION UNDO
+[2024.04.25-15.43.49:305][453]LogEditorTransaction: Undo Move Elements
+[2024.04.25-15.43.49:556][457]Cmd: TRANSACTION UNDO
+[2024.04.25-15.43.49:556][457]LogEditorTransaction: Undo Move Elements
+[2024.04.25-15.44.07:729][470]LogViewport: Scene viewport resized to 939x757, mode Windowed.
+[2024.04.25-15.45.51:319][972]Cmd: TRANSACTION UNDO
+[2024.04.25-15.45.51:319][972]LogEditorTransaction: Undo Foliage Editing
+[2024.04.25-15.45.56:021][385]Cmd: TRANSACTION REDO
+[2024.04.25-15.45.56:021][385]LogEditorTransaction: Redo Foliage Editing
+[2024.04.25-16.04.36:952][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.04.37:061][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.25-16.04.37:137][500]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.04.37:138][500]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_ShowcaseFCA35B0C49B4A53372887088930E759F.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.04.37:143][500]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.098
+[2024.04.25-16.04.37:147][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 2.10 sec)
+[2024.04.25-16.04.37:151][500]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.04.37:151][500]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.04.37:771][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.04.37:875][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2024.04.25-16.04.37:941][551]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.04.37:941][551]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase654A274D4CB61E2EBC3AF5A511B32D9D.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.04.37:947][551]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.086
+[2024.04.25-16.04.37:952][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 2.28 sec)
+[2024.04.25-16.04.37:954][551]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.04.37:954][551]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.05.10:989][266]Cmd: TRANSACTION UNDO
+[2024.04.25-16.05.10:989][266]LogEditorTransaction: Undo Foliage Editing
+[2024.04.25-16.14.13:434][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.14.13:521][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.04.25-16.14.13:589][367]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.14.13:589][367]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase47C200B74B3A06D68BDD2EA972101D4F.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.14.13:595][367]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.088
+[2024.04.25-16.14.13:599][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 2.44 sec)
+[2024.04.25-16.14.13:601][367]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.14.13:601][367]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.23.18:071][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.23.18:201][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.04.25-16.23.18:267][656]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.23.18:267][656]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_ShowcaseD5946FC7450408C01A15EC8D1A7FFCFB.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.23.18:273][656]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.088
+[2024.04.25-16.23.18:276][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 2.65 sec)
+[2024.04.25-16.23.18:278][656]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.23.18:278][656]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.23.19:928][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2024.04.25-16.23.19:947][790]LogViewport: Scene viewport resized to 1326x757, mode Windowed.
+[2024.04.25-16.23.29:234][841]Cmd: TRANSACTION UNDO
+[2024.04.25-16.23.29:234][841]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.25-16.23.29:744][849]Cmd: TRANSACTION UNDO
+[2024.04.25-16.23.29:744][849]LogEditorTransaction: Undo Move Elements
+[2024.04.25-16.23.30:182][891]Cmd: TRANSACTION UNDO
+[2024.04.25-16.23.30:182][891]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.25-16.25.35:685][238]LogViewport: Scene viewport resized to 939x757, mode Windowed.
+[2024.04.25-16.27.15:395][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.27.15:480][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.25-16.27.15:553][166]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.27.15:553][166]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase1FE010FB490B2F7F04BBADBAF51E085A.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.27.15:559][166]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.094
+[2024.04.25-16.27.15:563][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.81 sec)
+[2024.04.25-16.27.15:565][166]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.27.15:565][166]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.29.26:689][850]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.29.26:799][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.04.25-16.29.26:867][850]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.29.26:868][850]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_Showcase18B774A84B451BE02390E782ECE080FC.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.29.26:873][850]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.091
+[2024.04.25-16.29.26:878][850]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 3.00 sec)
+[2024.04.25-16.29.26:881][850]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.29.26:881][850]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2024.04.25-16.29.27:711][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2024.04.25-16.29.27:728][916]LogViewport: Scene viewport resized to 1326x757, mode Windowed.
+[2024.04.25-16.29.29:208][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.25-16.29.29:317][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.04.25-16.29.29:382][ 38]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2024.04.25-16.29.29:382][ 38]LogSavePackage: Moving '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Saved/LearningKit_Games_ShowcaseA55B689245F9E848614FE98D6151263C.tmp' to '../../../../../../Users/Paulina/Documents/GitHub/Sweet-Escape/SweetEscape/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2024.04.25-16.29.29:389][ 38]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.087
+[2024.04.25-16.29.29:393][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 3.19 sec)
+[2024.04.25-16.29.29:395][ 38]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2024.04.25-16.29.29:395][ 38]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
